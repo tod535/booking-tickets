@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Кинотеатр</h1>
+        <div class="dates">
+            <button class="date-button" data-date="2024-06-20">20 июня</button>
+            <button class="date-button" data-date="2024-06-21">21 июня</button>
+            <button class="date-button" data-date="2024-06-22">22 июня</button>
+            <button class="date-button" data-date="2024-06-23">23 июня</button>
+            <button class="date-button" data-date="2024-06-24">24 июня</button>
+            <button class="date-button" data-date="2024-06-25">25 июня</button>
+        </div>
+        <div class="seances">
+            <h2>Сеансы</h2>
+            <ul id="seances-list"></ul>
+        </div>
+        <div class="seats">
+            <h2>Места</h2>
+            <table id="seats-table">
+                <tr>
+                    <th>Место</th>
+                    <th>Свободно</th>
+                    <th>Забронировано</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
